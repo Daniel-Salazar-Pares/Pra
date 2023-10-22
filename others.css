@@ -1,10 +1,11 @@
 html {
-    color: black;
+    color: #bbbaba;
     font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
-}
-main {
+    line-height: 25px;
     background-image: url(othersImg/Background.jpg);  
     background-attachment: fixed;  
+    background-size: contain;
+    text-align-last: auto; text-align: justify;
 }
 body {
     margin: 0px;
@@ -13,7 +14,7 @@ main {
     margin: 20px;
 }
 article {
-    height: 1500px;
+    height: auto;
 }
 #logo{
     height: 150px;
@@ -25,46 +26,119 @@ article {
     z-index: 1;
 }
 .menu{
-    background-color: #30093869;
+    background-color: #511b5c;
     margin-top: 0px;
-    margin-left:auto;
+    margin-left: auto;
     text-align: center;
     padding: 15px;
     margin: 0px;
-
 }
 .menu a {
-    color: black;
+    color: #ffffff63;
     text-decoration: none;
     padding: 15px;
-
+}
+.infoBasica {
+    padding-left: 2%;
+    width: 100%;
+    text-align: left;
 }
 .menu a:hover{
-    color: #f2b2b2d8;
+    color: #f5c3c3;
     background-color: #30093896;
 } 
 
 main {
     margin: 0px;
 }
+h1 {
+    color: #f2b2b2d8;
+}
 h2 {
-    padding-left: 2%;
-    padding-top: 1%;
-    color: #0A91AB;
+    color: #f2b2b2d8;
 }
 h3 {
-    color: #FFC045;
+    color: #92814bd8;
+    margin-left: 10px;
 }
-
-
-
-
+.articulo {
+    margin: 5%;
+    background-color: #68427054;
+    padding: 2.5%;
+}
+.residentInicio {
+    display: flex;
+}
+.residentInicioImg {
+    float: left;
+    height: 600px;
+    width: 600px;
+    margin: 20px;
+}
+.ImgJessie {
+    height: 400px;
+    float: right;
+    margin: 2%;
+}
+.mesa {
+    height: 300px;
+    float: left;
+    margin: 2%;
+    top: 600px;
+}
+.personaje {
+    margin: auto;
+    height: 600px;
+    width: 350px;
+    border: wheat solid;
+}
+.personaje p {
+    margin: 10px;
+}
+.imgPersonaje{
+    width: 350px;
+    height: 350px;
+}
+.info {
+    display: block;
+    background-color: #793486;
+    float: bottom;
+    left: 15px;
+    display: block; 
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+button {
+    border: none;
+    background: none;
+}
+.info div {
+    position: absolute;
+    font-size: 25px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    transform: translate(-50%, -50%);
+    color: #f5c3c3;
+}
+.info:hover button {
+    cursor: pointer;
+}
 footer {
     display: flex;
-    background-color: #8A8070;
+    background-color: #50493fb6;
     margin-top: 0px;
     height: 5%;
     width: 100%;
+    color: #ffffff63;
 }
 footer div {
     margin: auto;
@@ -72,7 +146,7 @@ footer div {
 footer div a {
     margin: 15px;
     text-decoration: none;
-    color: #000000;
+    color: #ffffff63;
 }
 .bottom {
     width: 33%;
