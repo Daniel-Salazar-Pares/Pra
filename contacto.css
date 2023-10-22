@@ -1,0 +1,138 @@
+html {
+    color: black;
+    font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
+}
+.titol {
+    text-align: center;
+    background-color: #0A91AB;
+    padding: 50px;
+    margin: 0px;
+    
+}
+body {
+    margin: 0px;
+}
+main {
+    margin: 20px;
+}
+#logo{
+    height: 150px;
+    width: auto;
+}
+#sticky{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.menu{
+    background-color: #FFC045;
+    border-bottom: 2px solid black;
+    margin-top: 0px;
+    margin-left:auto;
+    background-color: #FFC045;
+    text-align: center;
+    padding: 15px;
+    margin: 0px;
+
+}
+.menu a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+
+}
+.menu :hover{
+    color: #0A91AB;
+    background-color: #f0c776;
+}
+main {
+    margin: 0px;
+}
+h2 {
+    padding-left: 2%;
+    padding-top: 1%;
+    color: #0A91AB;
+}
+h3 {
+    color: #FFC045;
+}
+.contacto {
+    display: flex;
+}
+.seccionMapa {
+    width: auto;
+    margin-left: 12%;
+    margin-top: 2%;
+}
+.boxFormulario {
+    width: auto;
+    margin: 2%;
+}
+.boton{
+    width: 100%;
+}
+
+.contenedorFormulario label {
+    display:block;
+    font-weight: bold;
+}
+.contenedorFormulario input, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+.botonEnviar {
+    padding: 10px 20px;
+    background-color: #FFC045;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.botonEnviar span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.botonEnviar span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.botonEnviar:hover span {
+    padding-right: 25px;
+}
+.botonEnviar:hover span:after {
+    opacity: 1;
+    right: 0;   
+}
+
+footer {
+    display: flex;
+    background-color: #8A8070;
+    margin-top: 25px;
+    height: 5%;
+    width: 100%;
+}
+footer div {
+    margin: auto;
+}
+footer div a {
+    margin: 15px;
+    text-decoration: none;
+    color: #000000;
+}
+.bottom {
+    width: 33%;
+    height: 75px;
+
+}

@@ -1,0 +1,250 @@
+html {
+    color: black;
+    font-family: 'Kanit', 'Maven Pro', Helvetica, Arial, sans-serif;
+}
+.titol {
+    text-align: center;
+    background-color: #0A91AB;
+    padding: 50px;
+    margin: 0px;
+    
+}
+body {
+    margin: 0px;
+}
+main {
+    margin: 20px;
+}
+#logo{
+    height: 150px;
+    width: auto;
+}
+#sticky{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.menu{
+    background-color: #FFC045;
+    border-bottom: 2px solid black;
+    margin-top: 0px;
+    margin-left:auto;
+    background-color: #FFC045;
+    text-align: center;
+    padding: 15px;
+    margin: 0px;
+
+}
+.menu a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+
+}
+.menu :hover{
+    color: #0A91AB;
+    background-color: #f0c776;
+}
+main {
+    margin: 0px;
+}
+h2 {
+    padding-left: 2%;
+    padding-top: 1%;
+    color: #0A91AB;
+}
+h3 {
+    color: #FFC045;
+}
+#seccionVideojuegos{
+    display: flex;
+    margin-top: 2%;
+}
+.box {
+    border: 3px dotted #FFC045;
+    border-radius: 25px;
+    margin: auto;
+    width: 30%;
+    height: 550px;
+    position: relative;
+    margin-bottom: 25px;
+}
+.imagenJuego {
+    width: 100%;
+    height: 300px;
+    border-radius: 22px 22px 10px 10px;
+}
+.box div div {
+    margin: 15px;
+    text-align-last: auto; text-align: justify;
+}
+.mesInfo {
+    display: inline-block;
+    background-color: #FFC045;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    vertical-align: bottom;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 25px;
+}
+.mesInfo span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.mesInfo span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.mesInfo:hover span {
+    padding-right: 25px;
+}
+.mesInfo:hover span:after {
+    opacity: 1;
+    right: 0;   
+}
+.extra {
+    display: flex;
+    height: 1300px;
+}
+.trucos{
+    width: 25%;
+    height: 85%;
+    border: 2px dotted;
+    border-radius: 22px; 
+    margin: auto;
+    background-color: #0A90AB25;
+    text-align: center;
+    padding: 15px;
+
+}
+.trucos p {
+    line-height: 25px;
+}
+#noticias {
+    text-align: center;
+    width: 65%;
+    margin-right: 25px;
+    height: 100%;
+}
+
+.noticias {
+    position: relative;
+    display: flex;  
+}
+.noticias div {
+    width: 48%;
+    height: 525px;
+    margin: 2%;
+    border: #0A91AB solid 2px;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: auto;
+}
+.noticias hr {
+    width: 99%;
+    display: block;
+    border-width: 0px;
+    height: 5px;
+    background-color: #FFC045;
+}
+.text {
+    margin: 4%;
+    position: relative;
+    text-align-last: auto; text-align: justify;
+}
+.imagenJuegoNoticias {
+    width: 100%;
+    height: 250px;
+    margin: 0px;
+    border-radius: 5px 5px 9px 9px;
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+}   
+.mesInfoNoticies {
+    display: inline-block;
+    background-color: #FFC045;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    position: absolute;
+    right: 15px;
+    top: 55%;
+    border-radius: 25px;
+}
+.mesInfoNoticies span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.mesInfoNoticies span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.mesInfoNoticies:hover span {
+    padding-right: 25px;
+}
+.mesInfoNoticies:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.Ranking {
+    position: relative;
+    display: flex;  
+    margin: 2%;
+}
+.pf {
+    text-align: center;
+    margin: auto;
+}
+.pfp {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+footer {
+    display: flex;
+    background-color: #8A8070;
+    margin-top: 25px;
+    height: 5%;
+    width: 100%;
+}
+footer div {
+    margin: auto;
+}
+footer div a {
+    margin: 15px;
+    text-decoration: none;
+    color: #000000;
+}
+.bottom {
+    width: 33%;
+    height: 75px;
+
+}
